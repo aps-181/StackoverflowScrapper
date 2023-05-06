@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 //question you want to ask
-const query = "error missing parantheses"
+const query = "how to exit vim"
 
 const queryWordArray = query.split(" ");
 const queryUrl = `${query.replace(/ /g, "%20")}`;
